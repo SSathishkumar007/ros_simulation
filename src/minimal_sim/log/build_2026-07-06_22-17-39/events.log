@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (minimal_sim) JobQueued: {'identifier': 'minimal_sim', 'dependencies': OrderedDict()}
+[0.000485] (minimal_sim) JobStarted: {'identifier': 'minimal_sim'}
+[0.007854] (minimal_sim) JobProgress: {'identifier': 'minimal_sim', 'progress': 'cmake'}
+[0.008361] (minimal_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/sathish/ros2_ws/src/minimal_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim'], 'cwd': '/home/sathish/ros2_ws/src/minimal_sim/build/minimal_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sathish'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sathish'), ('OLDPWD', '/home/sathish/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1747'), ('SYSTEMD_EXEC_PID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5669'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sathish'), ('JOURNAL_STREAM', '8:3060'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sathish'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sathish-LOQ-15IAX9:@/tmp/.ICE-unix/1885,unix/sathish-LOQ-15IAX9:/tmp/.ICE-unix/1885'), ('INVOCATION_ID', '191707313f774010ad8e54a55490b083'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8T5MR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:90dabb02-6e2b-4b75-a45e-938f19a78310'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sathish/ros2_ws/src/minimal_sim/build/minimal_sim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099767] (-) TimerEvent: {}
+[0.130402] (minimal_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199856] (-) TimerEvent: {}
+[0.208366] (minimal_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.217566] (minimal_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299972] (-) TimerEvent: {}
+[0.319153] (minimal_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.329125] (minimal_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.330219] (minimal_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.331023] (minimal_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.334816] (minimal_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400168] (-) TimerEvent: {}
+[0.433776] (minimal_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.439888] (minimal_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.440116] (minimal_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.440333] (minimal_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.444822] (minimal_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500282] (-) TimerEvent: {}
+[0.590944] (minimal_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600411] (-) TimerEvent: {}
+[0.645603] (minimal_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.676316] (minimal_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700518] (-) TimerEvent: {}
+[0.715933] (minimal_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.720978] (minimal_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.728621] (minimal_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.739556] (minimal_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.753889] (minimal_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.791214] (minimal_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.793519] (minimal_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800697] (-) TimerEvent: {}
+[0.898317] (minimal_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.900865] (-) TimerEvent: {}
+[0.937948] (minimal_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.972334] (minimal_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.982115] (minimal_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001034] (-) TimerEvent: {}
+[1.079394] (minimal_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.079696] (minimal_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101169] (-) TimerEvent: {}
+[1.158193] (minimal_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.160419] (minimal_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201364] (-) TimerEvent: {}
+[1.214016] (minimal_sim) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[1.241381] (minimal_sim) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.242529] (minimal_sim) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.242715] (minimal_sim) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.301543] (-) TimerEvent: {}
+[1.367771] (minimal_sim) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.377170] (minimal_sim) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.378142] (minimal_sim) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.389159] (minimal_sim) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.401702] (-) TimerEvent: {}
+[1.502117] (-) TimerEvent: {}
+[1.530398] (minimal_sim) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.602250] (-) TimerEvent: {}
+[1.609888] (minimal_sim) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.639810] (minimal_sim) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.664719] (minimal_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.680954] (minimal_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.690039] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.702390] (-) TimerEvent: {}
+[1.704532] (minimal_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.707056] (minimal_sim) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.707588] (minimal_sim) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.714516] (minimal_sim) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.732862] (minimal_sim) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.787898] (minimal_sim) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.798277] (minimal_sim) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.803149] (-) TimerEvent: {}
+[1.807069] (minimal_sim) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.810829] (minimal_sim) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.810916] (minimal_sim) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.814349] (minimal_sim) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.814431] (minimal_sim) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.817668] (minimal_sim) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.817744] (minimal_sim) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.821038] (minimal_sim) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.821120] (minimal_sim) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.824207] (minimal_sim) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.824285] (minimal_sim) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.827500] (minimal_sim) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.896505] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.898392] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.898564] (minimal_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.903245] (-) TimerEvent: {}
+[1.912503] (minimal_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.921608] (minimal_sim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.926076] (minimal_sim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.944359] (minimal_sim) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.003513] (minimal_sim) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.003767] (-) TimerEvent: {}
+[2.013551] (minimal_sim) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.032464] (minimal_sim) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.088038] (minimal_sim) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.092587] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.093328] (minimal_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.103837] (-) TimerEvent: {}
+[2.110720] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.114670] (minimal_sim) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.125794] (minimal_sim) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.181990] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.186019] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.186579] (minimal_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.187068] (minimal_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.187882] (minimal_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.189312] (minimal_sim) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.203950] (-) TimerEvent: {}
+[2.206500] (minimal_sim) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.207823] (minimal_sim) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.211326] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.211874] (minimal_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.212324] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.215582] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.215888] (minimal_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.304082] (-) TimerEvent: {}
+[2.329421] (minimal_sim) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.344961] (minimal_sim) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.366633] (minimal_sim) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.404212] (-) TimerEvent: {}
+[2.417775] (minimal_sim) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.427291] (minimal_sim) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.448469] (minimal_sim) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.504338] (-) TimerEvent: {}
+[2.505745] (minimal_sim) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.506541] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.507379] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.508189] (minimal_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.515308] (minimal_sim) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.515777] (minimal_sim) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.537820] (minimal_sim) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.595341] (minimal_sim) StdoutLine: {'line': b'-- Found nav2_bringup: 1.1.20 (/opt/ros/humble/share/nav2_bringup/cmake)\n'}
+[2.599455] (minimal_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.604448] (-) TimerEvent: {}
+[2.671853] (minimal_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.671980] (minimal_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.672017] (minimal_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.672666] (minimal_sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.673553] (minimal_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.674148] (minimal_sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.676581] (minimal_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.676663] (minimal_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.677367] (minimal_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.678626] (minimal_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.682176] (minimal_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[2.684290] (minimal_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/sathish/ros2_ws/src/minimal_sim/build/minimal_sim\n'}
+[2.693212] (minimal_sim) CommandEnded: {'returncode': 0}
+[2.693678] (minimal_sim) JobProgress: {'identifier': 'minimal_sim', 'progress': 'build'}
+[2.694303] (minimal_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sathish/ros2_ws/src/minimal_sim/build/minimal_sim', '--', '-j12', '-l12'], 'cwd': '/home/sathish/ros2_ws/src/minimal_sim/build/minimal_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sathish'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sathish'), ('OLDPWD', '/home/sathish/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1747'), ('SYSTEMD_EXEC_PID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5669'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sathish'), ('JOURNAL_STREAM', '8:3060'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sathish'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sathish-LOQ-15IAX9:@/tmp/.ICE-unix/1885,unix/sathish-LOQ-15IAX9:/tmp/.ICE-unix/1885'), ('INVOCATION_ID', '191707313f774010ad8e54a55490b083'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8T5MR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:90dabb02-6e2b-4b75-a45e-938f19a78310'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sathish/ros2_ws/src/minimal_sim/build/minimal_sim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.704604] (-) TimerEvent: {}
+[2.737568] (minimal_sim) CommandEnded: {'returncode': 0}
+[2.739114] (minimal_sim) JobProgress: {'identifier': 'minimal_sim', 'progress': 'install'}
+[2.747559] (minimal_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sathish/ros2_ws/src/minimal_sim/build/minimal_sim'], 'cwd': '/home/sathish/ros2_ws/src/minimal_sim/build/minimal_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sathish'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sathish'), ('OLDPWD', '/home/sathish/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1747'), ('SYSTEMD_EXEC_PID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5669'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sathish'), ('JOURNAL_STREAM', '8:3060'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sathish'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sathish-LOQ-15IAX9:@/tmp/.ICE-unix/1885,unix/sathish-LOQ-15IAX9:/tmp/.ICE-unix/1885'), ('INVOCATION_ID', '191707313f774010ad8e54a55490b083'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8T5MR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:90dabb02-6e2b-4b75-a45e-938f19a78310'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sathish/ros2_ws/src/minimal_sim/build/minimal_sim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.757447] (minimal_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.758241] (minimal_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.758511] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/ament_index/resource_index/package_run_dependencies/minimal_sim\n'}
+[2.772369] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/ament_index/resource_index/parent_prefix_path/minimal_sim\n'}
+[2.784851] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/environment/ament_prefix_path.sh\n'}
+[2.795880] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/environment/ament_prefix_path.dsv\n'}
+[2.804788] (-) TimerEvent: {}
+[2.806777] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/environment/path.sh\n'}
+[2.820143] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/environment/path.dsv\n'}
+[2.827429] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/local_setup.bash\n'}
+[2.834914] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/local_setup.sh\n'}
+[2.844374] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/local_setup.zsh\n'}
+[2.856677] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/local_setup.dsv\n'}
+[2.868818] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/package.dsv\n'}
+[2.878310] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/ament_index/resource_index/packages/minimal_sim\n'}
+[2.888413] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/cmake/minimal_simConfig.cmake\n'}
+[2.899793] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/cmake/minimal_simConfig-version.cmake\n'}
+[2.904948] (-) TimerEvent: {}
+[2.911022] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/package.xml\n'}
+[2.923803] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/launch/bringup.launch.py\n'}
+[2.935822] (minimal_sim) StdoutLine: {'line': b'-- Symlinking: /home/sathish/ros2_ws/src/minimal_sim/install/minimal_sim/share/minimal_sim/urdf/minimal_bot.urdf\n'}
+[2.949266] (minimal_sim) CommandEnded: {'returncode': 0}
+[2.978301] (minimal_sim) JobEnded: {'identifier': 'minimal_sim', 'rc': 0}
+[2.978958] (-) EventReactorShutdown: {}

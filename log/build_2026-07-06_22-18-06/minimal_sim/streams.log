@@ -1,0 +1,145 @@
+[0.006s] Invoking command in '/home/sathish/ros2_ws/build/minimal_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sathish/ros2_ws/src/minimal_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sathish/ros2_ws/install/minimal_sim
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.117s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.291s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.298s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.413s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.468s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.490s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.526s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.529s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.536s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.584s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.586s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.680s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.704s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.737s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.746s] -- Looking for pthread.h
+[0.822s] -- Looking for pthread.h - found
+[0.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.902s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.903s] -- Found Threads: TRUE  
+[0.937s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.957s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.958s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.958s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.059s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.067s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.068s] -- Checking for module 'bullet>=2.82'
+[1.079s] --   Found bullet, version 3.05
+[1.209s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.288s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.304s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.324s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.335s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.338s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.342s] -- Searching for dependencies of ignition-math6
+[1.343s] -- Looking for OGRE...
+[1.344s] -- OGRE_PREFIX_WATCH changed.
+[1.349s] -- Checking for module 'OGRE'
+[1.368s] --   Found OGRE, version 1.9.0
+[1.416s] -- Found Ogre Ghadamon (1.9.0)
+[1.426s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.435s] -- Looking for OGRE_Paging...
+[1.439s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.439s] -- Looking for OGRE_Terrain...
+[1.442s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.442s] -- Looking for OGRE_Property...
+[1.445s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.445s] -- Looking for OGRE_RTShaderSystem...
+[1.448s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.448s] -- Looking for OGRE_Volume...
+[1.451s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.452s] -- Looking for OGRE_Overlay...
+[1.454s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.519s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.520s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.520s] -- Searching for dependencies of ignition-transport8
+[1.533s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.541s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.545s] -- Checking for module 'libzmq >= 4'
+[1.555s] --   Found libzmq , version 4.3.4
+[1.599s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.608s] -- Checking for module 'uuid'
+[1.627s] --   Found uuid, version 2.37.2
+[1.681s] -- Found UUID: TRUE  
+[1.685s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.685s] -- Searching for dependencies of ignition-msgs5
+[1.702s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.706s] -- Checking for module 'tinyxml2'
+[1.719s] --   Found tinyxml2, version 9.0.0
+[1.776s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.777s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.778s] -- Searching for dependencies of ignition-common3
+[1.778s] -- Looking for dlfcn.h - found
+[1.778s] -- Looking for libdl - found
+[1.779s] -- Found DL: TRUE  
+[1.789s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.790s] -- Searching for <ignition-common3> component [graphics]
+[1.791s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.792s] -- Searching for dependencies of ignition-common3-graphics
+[1.792s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.794s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.794s] -- Searching for dependencies of ignition-fuel_tools4
+[1.896s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.908s] -- Checking for module 'jsoncpp'
+[1.927s] --   Found jsoncpp, version 1.9.5
+[1.983s] -- Found JSONCPP: TRUE  
+[1.992s] -- Checking for module 'libzip'
+[2.011s] --   Found libzip, version 1.7.3
+[2.064s] -- Found ZIP: TRUE  
+[2.065s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.066s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.066s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.071s] -- Gazebo version: 11.10
+[2.072s] -- Checking for module 'tbb'
+[2.091s] --   Found tbb, version 2021.5.0
+[2.143s] -- Found nav2_bringup: 1.1.20 (/opt/ros/humble/share/nav2_bringup/cmake)
+[2.146s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.207s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.207s] -- Configured cppcheck include dirs: 
+[2.207s] -- Configured cppcheck exclude dirs and/or files: 
+[2.207s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.209s] -- Added test 'lint_cmake' to check CMake code style
+[2.210s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.214s] -- Added test 'uncrustify' to check C / C++ code style
+[2.214s] -- Configured uncrustify additional arguments: 
+[2.214s] -- Added test 'xmllint' to check XML markup files
+[2.215s] -- Configuring done
+[2.219s] -- Generating done
+[2.221s] -- Build files have been written to: /home/sathish/ros2_ws/build/minimal_sim
+[2.230s] Invoked command in '/home/sathish/ros2_ws/build/minimal_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sathish/ros2_ws/src/minimal_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sathish/ros2_ws/install/minimal_sim
+[2.232s] Invoking command in '/home/sathish/ros2_ws/build/minimal_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sathish/ros2_ws/build/minimal_sim -- -j12 -l12
+[2.268s] Invoked command in '/home/sathish/ros2_ws/build/minimal_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sathish/ros2_ws/build/minimal_sim -- -j12 -l12
+[2.283s] Invoking command in '/home/sathish/ros2_ws/build/minimal_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sathish/ros2_ws/build/minimal_sim
+[2.294s] -- Install configuration: ""
+[2.295s] -- Execute custom install script
+[2.295s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/ament_index/resource_index/package_run_dependencies/minimal_sim
+[2.307s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/ament_index/resource_index/parent_prefix_path/minimal_sim
+[2.320s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/ament_prefix_path.sh
+[2.331s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/ament_prefix_path.dsv
+[2.341s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/path.sh
+[2.351s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/path.dsv
+[2.364s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.bash
+[2.376s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.sh
+[2.387s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.zsh
+[2.394s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.dsv
+[2.406s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/package.dsv
+[2.418s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/ament_index/resource_index/packages/minimal_sim
+[2.427s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/cmake/minimal_simConfig.cmake
+[2.437s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/cmake/minimal_simConfig-version.cmake
+[2.446s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/package.xml
+[2.455s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/launch/bringup.launch.py
+[2.463s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/urdf/minimal_bot.urdf
+[2.477s] Invoked command in '/home/sathish/ros2_ws/build/minimal_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sathish/ros2_ws/build/minimal_sim

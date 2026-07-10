@@ -1,0 +1,1 @@
+/home/sathish/ros2_ws/src/minimal_sim/launch/bringup.launch.py

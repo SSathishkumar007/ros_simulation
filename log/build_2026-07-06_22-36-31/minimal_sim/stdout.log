@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/ament_index/resource_index/package_run_dependencies/minimal_sim
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/ament_index/resource_index/parent_prefix_path/minimal_sim
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/path.sh
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/path.dsv
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.bash
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.sh
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.zsh
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.dsv
+-- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/package.dsv
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/ament_index/resource_index/packages/minimal_sim
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/cmake/minimal_simConfig.cmake
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/cmake/minimal_simConfig-version.cmake
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/package.xml
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/launch/bringup.launch.py
+-- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/urdf/minimal_bot.urdf
+-- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/worlds/simple_maze.world

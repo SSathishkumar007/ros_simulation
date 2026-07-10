@@ -1,0 +1,6 @@
+Invoking command in '/home/sathish/ros2_ws/build/minimal_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sathish/ros2_ws/src/minimal_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sathish/ros2_ws/install/minimal_sim
+Invoked command in '/home/sathish/ros2_ws/build/minimal_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sathish/ros2_ws/src/minimal_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sathish/ros2_ws/install/minimal_sim
+Invoking command in '/home/sathish/ros2_ws/build/minimal_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sathish/ros2_ws/build/minimal_sim -- -j12 -l12
+Invoked command in '/home/sathish/ros2_ws/build/minimal_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sathish/ros2_ws/build/minimal_sim -- -j12 -l12
+Invoking command in '/home/sathish/ros2_ws/build/minimal_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sathish/ros2_ws/build/minimal_sim
+Invoked command in '/home/sathish/ros2_ws/build/minimal_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sathish/ros2_ws/build/minimal_sim

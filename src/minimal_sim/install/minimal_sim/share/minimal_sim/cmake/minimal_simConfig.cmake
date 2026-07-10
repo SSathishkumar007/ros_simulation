@@ -1,0 +1,1 @@
+/home/sathish/ros2_ws/src/minimal_sim/build/minimal_sim/ament_cmake_core/minimal_simConfig.cmake

@@ -1,0 +1,23 @@
+[0.008s] Invoking command in '/home/sathish/ros2_ws/build/minimal_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sathish/ros2_ws/build/minimal_sim -- -j12 -l12
+[0.044s] Invoked command in '/home/sathish/ros2_ws/build/minimal_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sathish/ros2_ws/build/minimal_sim -- -j12 -l12
+[0.053s] Invoking command in '/home/sathish/ros2_ws/build/minimal_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sathish/ros2_ws/build/minimal_sim
+[0.058s] -- Install configuration: ""
+[0.058s] -- Execute custom install script
+[0.058s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/ament_index/resource_index/package_run_dependencies/minimal_sim
+[0.058s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/ament_index/resource_index/parent_prefix_path/minimal_sim
+[0.058s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/path.sh
+[0.059s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/environment/path.dsv
+[0.059s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.bash
+[0.059s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.sh
+[0.059s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.zsh
+[0.059s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/local_setup.dsv
+[0.059s] -- Symlinking: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/package.dsv
+[0.066s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/ament_index/resource_index/packages/minimal_sim
+[0.066s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/cmake/minimal_simConfig.cmake
+[0.066s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/cmake/minimal_simConfig-version.cmake
+[0.066s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/package.xml
+[0.066s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/launch/bringup.launch.py
+[0.066s] -- Up-to-date symlink: /home/sathish/ros2_ws/install/minimal_sim/share/minimal_sim/urdf/minimal_bot.urdf
+[0.068s] Invoked command in '/home/sathish/ros2_ws/build/minimal_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sathish/ros2_ws/build/minimal_sim
